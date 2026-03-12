@@ -7,7 +7,7 @@ spec:
   interval: 1h
   retryInterval: 1m
   path: "./apps/cert-manager" # Point to the app folder
-  prune: true
+  prune: false
   sourceRef:
     kind: GitRepository
     name: flux-system
